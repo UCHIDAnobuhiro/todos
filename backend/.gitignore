@@ -1,0 +1,21 @@
+# Go build artifacts
+/bin
+/build
+*.exe
+*.out
+*.test
+
+# Go workspace
+/go.sum
+/go.work
+/go.work.sum
+
+# dotenv / secrets
+.env
+*.log
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+.DS_Store

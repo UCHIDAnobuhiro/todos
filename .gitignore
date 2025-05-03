@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# dotenv（全体用）
+.env
+.env.*.local
+
+# OS一時ファイル
+Thumbs.db
