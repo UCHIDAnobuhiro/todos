@@ -1,0 +1,12 @@
+# air設定ファイル
+
+root = "."
+tmp_dir = "tmp"
+
+[build]
+  cmd = "go build -o main ."
+  bin = "main"
+  delay = 200
+  exclude_dir = ["tmp", "node_modules"]
+  include_ext = ["go", "tmpl", "html"]
+  exclude_file = ["*_test.go"]
